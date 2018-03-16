@@ -21,7 +21,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.33"
             android:adjustViewBounds="true"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_launcher"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"

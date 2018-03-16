@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class Retroserver {
-    private  static  final String base_url = "http://apidroid.baleispace-media.com";
+    private  static  final String base_url = "http://baleispace-media.com/apidroid";
 
     private static Retrofit retrofit;
 

@@ -1,5 +1,7 @@
 package com.posapp.nutech.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.List;
 
 /**
@@ -34,4 +36,18 @@ public class ResponsModel {
     public void setPesan(String pesan) {
         this.pesan = pesan;
     }
+
+    @SerializedName("title")
+    private String Title;
+
+    @SerializedName("image")
+    private String Image;
+
+    @SerializedName("response")
+    private String Response;
+
+    public String getResponse(){
+        return Response;
+    }
+
 }
